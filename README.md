@@ -9,19 +9,16 @@ The corel-5k datset was used for the implementation. The concept of the project 
 Given some words that can describe all the images of the collection, find the most "similar" ones matching some other images given as queries.
 
 In order to retrieve relevant images, three different kinds of methods were used:
-  1) The classical Vector Space Model, 
-  2) The LSI and
-  3) A combination of the two methods above.
+  * The classical Vector Space Model, 
+  * The LSI and
+  * A combination of the two methods above.
   
 Finally the results were evaluated using the trec_eval program.
 
 The whole project consists of the following three folders:
-  
-  1) data : it contains all the data that are necessary for the implementation. Make sure you load all of them before running the code!
-  
-  2) src : it contains the matlab source code of the project.
-  
-  3) trec_eval_data : it contains the results of the program for both three methods stated above, as well as the evaluation of the results            comparing them to the actual correct answers.
+  * data : it contains all the data that are necessary for the implementation. Make sure you load all of them before running the code!
+  * src : it contains the matlab source code of the project.
+  * trec_eval_data : it contains the results of the program for both three methods stated above, as well as the evaluation of the results            comparing them to the actual correct answers.
   
   
 To run the VSM method, enter the src directory after having loaded all the necessary data and type :
