@@ -1,9 +1,7 @@
 ImageRetrieval
 ==============
 
-A textual-based image retrieval project, implemented in matlab.
-
-This project was developed for the purposes of the course 'Information Retrieval' of cs department, Athens University of Economics and Business, during the Winter semester 2013 - 2014.
+A textual-based image retrieval application, based on the Bag-Of-Words model, implemented in matlab.
 
 The corel-5k datset was used for the implementation. The concept of the project is the following:
 Given some words that can describe all the images of the collection, find the most "similar" ones matching some other images given as queries.
